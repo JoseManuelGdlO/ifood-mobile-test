@@ -1,0 +1,9 @@
+Hola buenos dias yo etuve trabajando con Swift.
+Cuando se presiona el boton de buscar por usario de Twitter yo consigo la pagina en formato HTML y le extraigo parte por parte.
+1.- Nombre de usuario junto con el real
+2.- Foto de Perfil
+3.- Los Tweets
+
+Una vez que tengo todo esto continuo revisando cada tweet, los mando por POST a una URL ya definida por google y esta misma pagina
+me regresa el sentimiento en formato JSON lo casteo y en base al numero que me regreso considero las tres opciones
+Feliz, Triste y Neutral y ya con esto determino que imagen usare en cada uno.
